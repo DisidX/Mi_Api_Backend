@@ -5,6 +5,8 @@ const PORT = 3000;
 
 app.use(express.json());
 
+
+//File
 const DATA_FILE = "./productos.json";
 
 app.get("/productos", (req, res) => {
