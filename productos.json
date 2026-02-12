@@ -1,4 +1,12 @@
-[{
-  "nombre": "Laptop AWS Edition",
-  "precio": 1200
-}]
+[
+  {
+    "nombre": "Laptop AWS Edition",
+    "precio": 1200,
+    "id": 1770918135265
+  },
+  {
+    "nombre": "teclado",
+    "precio": "240",
+    "id": 1770918135266
+  }
+]
