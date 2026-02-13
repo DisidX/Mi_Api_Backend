@@ -1,13 +1,13 @@
 const express = require('express');
-const errorHandler = require('src/middleware/errorHandler');
-const productRoutes =  require('src/routes/productRoutes');
+const productoRoutes =  require('./routes/productoRoutes');
+const errorHandler = require('./middleware/errorHandler');
 
 
 const app = express();
 
 app.use(express.json());
 
-app.use('/productos.json', productRoutes);
+app.use('/productos.json', productoRoutes);
 
 app.use((req,res,next)=>{
     res.status(404).json({

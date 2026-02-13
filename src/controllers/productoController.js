@@ -19,7 +19,6 @@ const validateProducto = (data) => {
 
 // conecta request/response + service + Validación
 const productoService = require('../services/productoService');
-const { validateProducto } = require('./productoController'); // o mover a middleware
 
 const getProductos = (req, res, next) => {
     try {
